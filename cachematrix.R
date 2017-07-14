@@ -1,5 +1,4 @@
-## Put comments here that give an overall description of what your
-## functions do
+
 
 ## makeCache takes the inverse of the input matrix value
 
@@ -11,7 +10,7 @@ makeCacheMatrix <- function(x = matrix()) {
   }
   get<- function() x
   setinverse<- function(inverse)m <<- inverse 
-  setinverse <- function() m
+  getinverse <- function() m
   list(set=set,get=get,
        setinverse= setinverse,
        getinverse=getinverse)
